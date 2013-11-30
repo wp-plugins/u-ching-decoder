@@ -37,9 +37,9 @@ Translated from English (en_EN) to Spanish (es_ES) and Dutch (nl_NL).
 == About the Series ==
 * There are three plugins that synchronize with each day and decoding.  This plugin is the third of a series developed to expand the use of Natural Time.
 * If you like this plugin, you might also like:
-1. 13-Moon Synchronometer
-2. Cosmic History Quotes
 
+* [__13-Moon Synchronometer__](http://wordpress.org/plugins/13-moon-synchronometer/)
+* [__Cosmic History Quotes__](http://wordpress.org/plugins/cosmic-history-quotes/)
 
 = Help Keep Our Plugins Free =
 
