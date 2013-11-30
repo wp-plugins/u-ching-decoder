@@ -65,20 +65,20 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 
 == Frequently Asked Questions ==
 
-* Q: What is number?
-* A: A number is a quality with a certain frequency. Mind works with the harmonic logic of numbers in order to create.
+* What is number?
+* A number is a quality with a certain frequency. Mind works with the harmonic logic of numbers in order to create.
 
-* Q: What is a day?
-* A: A day is one turn of the planet you are on. Normally this appears in two periods, defined by the day light or not.
+* What is a day?
+* A day is one turn of the planet you are on. Normally this appears in two periods, defined by the day light or not.
 
-* Q: What is time?
-* A: T(E)=Art. (T) is time, factored by (E) energy equals equals Art. Only to be understand within the Law of No-Time.
+* What is time?
+* T(E)=Art. (T) is time, factored by (E) energy equals equals Art. Only to be understand within the Law of No-Time.
 
-* Q: Why should I use this tool?
-* A: In time we are one unified mind. To learn and experience this we use a harmonic timing system for synchronization.
+* Why should I use this tool?
+* In time we are one unified mind. To learn and experience this we use a harmonic timing system for synchronization.
 
-* Q: What is required to understand it?
-* A: A will to change your time system, study the numbers, start or continue a daily practice in no-time, unify in mind! 
+* What is required to understand it?
+* A will to change your time system, study the numbers, start or continue a daily practice in no-time, unify in mind! 
 
 Time is Art
 
