@@ -1,0 +1,437 @@
+
+.next_day_link a {
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: bold;
+	text-align: center;
+	vertical-align: top;
+}
+
+.prior_day_link a {
+	text-align: center;
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: bold;
+	vertical-align: top;
+}
+
+i.date_container4 {
+     font-size: 10px;
+     font-style: normal;
+	font-weight: normal;
+}
+
+.kin_uching_hdr_info {
+	font-size: 10px;
+}
+
+
+.date_hdr_info {
+     text-align: center;
+     font-size: 12px;
+     width: 75%;
+     float: left;
+     margin-top: 3px;
+
+}
+
+.date_chooser {
+	width: 100%;
+     margin-bottom: 6px;
+}
+
+#credits_id {
+     padding-top: 10px;
+     font-size: 10px;
+     float: right;
+     line-height: 12px;
+	font-weight: bold;
+}
+
+.china_chars_tab {
+	font-size: 12px;
+	margin: 0 2px 0 2px;
+	font-style: normal;
+	line-height: 18px;
+	white-space: nowrap;
+}
+
+
+
+/* Tab Menu Items ======================================== */
+
+ul#tabs {
+	list-style-type: none; 
+	margin: 0 0 0 0; 
+	padding: 0 0 0 0; 
+}
+
+ul#tabs li { 
+	display: inline; 
+}
+
+ul#tabs li a { 
+	color: #42454a; 
+	background-color: #dedbde; 
+	border: 1px solid #c9c3ba; 
+	border-bottom: none; 
+	padding: 0.3em; 
+	text-decoration: none; 
+	font-size: 10px;
+}
+
+ul#tabs li a:hover { 
+	background-color: #f1f0ee; 
+}
+
+ul#tabs li a.selected {
+	color: #000; 
+	background-color: #f1f0ee; 
+	font-weight: bold; 
+	padding: 0.7em 0.3em 0.38em 0.3em; 
+}
+
+div.tabContent { 
+	border: 1px solid #c9c3ba; 
+	padding: 0.5em; 
+	background-color: #f1f0ee; 
+	min-height: 150px;
+}
+
+div.tabContent.hide { 
+	display: none; 
+}
+
+.ucd_tab {
+	padding-right: 8px;
+}
+
+/* Tabbed Area ======================================== */
+
+div.ucd_tab_pane {
+	padding-top: 10px;
+}
+
+div.ucd_tab_menu {
+	margin-top: 13px;
+	padding-bottom: 13px;
+}
+
+
+/* Display Chinese Chars LARGE ======================================== */
+i.chinese_char {
+     font-size: 30px;
+     font-style: normal;
+	line-height: 30px;
+}
+
+/* Style the Sidebar Widget ======================================== */
+
+div.content_wrapper {
+     min-height: 200px;
+}
+
+
+/* Any element in the uching widget area  ======================================== */
+
+div.post_list {
+	margin-top: 13px;
+}
+
+#uching_div_wrapper input {
+     padding: 0px;
+     text-align: center;
+     height: 20px;
+	font-size: 9px;
+	width: 20px;
+	padding: 0 4px 0 4px;
+}
+
+#uching_div_wrapper td {
+    font-size: 9px;
+     text-align: center;
+}
+
+
+/* Make table Grow  ======================================== */
+
+#the_hexagram_table {
+	table-layout: fixed;
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	border-collapse: collapse;
+}
+
+#the_hexagram_table td {
+	vertical-align: middle;
+}
+
+.the_hex_img {
+	width: 100%;
+	min-height: 16px;
+	vertical-align: text-bottom;
+}
+
+#the_hexagram_table img {
+	box-shadow: none;
+}
+
+td.new_hex_image {
+	width: 35%;
+     padding: 0 0 0 0;
+     margin: 0 0 0 0;
+
+	vertical-align: top;
+}
+
+
+.ucd_num {
+	text-align: center;
+}
+
+.num_div {
+	 background-color: yellow;
+	width: 20px;
+	font-size: 80%;
+}
+
+i.u-norm {
+     font-style: normal;
+     font-weight: normal;
+	font-size: 9px;
+//	vertical-align: middle;
+}
+
+i.u-bold {
+     font-style: normal;
+     font-weight: bolder;
+	font-size: 9px;
+//	vertical-align: text-bottom;
+}
+
+.ucd_uching_title {
+	text-align: center;
+	text-transform: capitalize;
+     font-weight: 600;
+     padding-bottom: 5px;
+	padding-top: 12px;
+}
+
+.ucd_u_ching_subtitle {
+     font-size: 9px;
+     font-weight: normal;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+#hex_summary td.ucd_rune_subtitle {
+     text-align: center;
+     vertical-align: top;
+     font-weight: normal;
+     font-style: italic;
+}
+
+#date_info td.kinfo_td {
+     text-align: center;
+     font-weight: 600;
+	line-height: 13pt;
+}
+
+
+td.ucd_num {
+//	line-height: 15px;
+	line-height: 10px;
+}
+
+.ucd_rune_title {
+     text-align: center;
+     text-transform: capitalize;
+     font-weight: 600;
+     padding-bottom: 5px;
+     padding-top: 5px;
+}
+
+/* This class makes a BIG difference when table is squeezed down */
+td.ucd_num {
+	width: 10px;
+}
+
+#hex_summary {
+	width: 100%;
+}
+
+#u_ching_plug_form select {
+	font-size: 10px;
+
+}
+
+#u_ching_plug_form td {
+	vertical-align: middle;
+}
+
+td.rune_img_padder {
+     text-align: center;
+     vertical-align: middle;
+}
+
+td.rune_image_td {
+	width: 50%;
+	height:100%;
+}
+
+#hex_summary .rune_img {
+	box-shadow: none;
+	height: auto;
+	width: 100%;
+}
+
+#hex_summary p {
+     font-size: 9px;
+     font-weight: 600;
+	margin-bottom: 0px;
+}
+
+#hex_summary p.core-rt {
+	text-align: right;
+	padding-right: 4px;
+}
+#hex_summary p.core-lt {
+	text-align: left;
+	padding-left: 4px;
+}
+
+#uching_div_wrapper table td {
+	border: none;
+}
+
+.core-lt {
+	text-transform: uppercase;
+}
+
+/* Third TAB contents */
+
+
+#third_tab_table {
+	margin-top: 10px;
+	width: 100%;
+}
+
+#third_tab_table table td {
+	border: none;
+}
+
+
+
+td.hex_full_img_padder {
+	vertical-align: middle;
+
+
+}
+
+#third_tab_table table.hex_full_table {
+	margin-top: 13px;
+}
+
+#third_tab_table .time_outer_rt {
+     font-size: 9px;
+     margin-bottom: 0px;
+	text-align: right;
+	line-height: 9px;
+	padding-right: 4px;
+}
+
+#third_tab_table .time_outer_lt {
+     font-size: 9px;
+     margin-bottom: 0px;
+	text-align: left;
+	line-height: 9px;
+	padding-left: 4px;
+}
+
+#third_tab_table img {
+	box-shadow: none;
+     padding-top: 2px;
+}
+
+#third_tab_table td {
+     font-size: 9px;
+     text-align: center;
+}
+
+#tabthree h2{
+     font-size: 9px;
+     text-align: center;
+}
+
+#third_tab_table td.chin_nm_rt {
+	vertical-align: middle;
+     text-align: left;
+	width: 30%;
+}
+
+#third_tab_table td.ucd_chinese_chars {
+	vertical-align: middle;
+     text-align: center;
+	width: 40%;
+}
+
+#third_tab_table td.chin_nm_lt {
+	vertical-align: middle;
+     text-align: right;
+	width: 30%;
+}
+
+
+#third_tab_table {
+
+}
+
+td.hex_full_img_padder {
+	vertical-align: bottom;
+	width: 25%;
+}
+
+.hex_full_img_padder_rt {
+	vertical-align: bottom;
+	width: 25%;
+}
+
+td.hex_full_moon_padder {
+	vertical-align: bottom;
+	width: 25%;
+}
+
+#third_tab_table .lunar_ring_img {
+     box-shadow: none;
+     height: auto;
+     width: 100%;
+}
+
+
+
+.hex_full_img_padder {
+	width: 10%;
+}
+
+#third_tab_table .hex_full_img_full {
+     box-shadow: none;
+     height: auto;
+     width: 100%;
+}
+
+#uching_div_wrapper ul li {
+	margin-right: -2px;
+}
+
+#u_ching_plug_form td {
+     text-align: right;
+}
+
+.decode_form_pad_cell {
+	width: 70%;
+}
+
+#tm_synchronometer img.plasma_icons {
+	box-shadow: none;
+}
