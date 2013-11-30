@@ -52,36 +52,36 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 = Automatic Method =
 
 1. You're reading this, so click the 'install now' link above
-2. Activate the plugin `(in Plugins menu)`
+1. Activate the plugin `(in Plugins menu)`
 
 = Manual Method =
 
 1. Download the `(u-ching-decoder.zip)` file from this wordpress page
-2. Go to Plugins, new, upload the zip file.  It will create a directory: `u-ching-decoder`
-3. Activate the plugin `(in Plugins menu)`
+1. Go to Plugins, new, upload the zip file.  It will create a directory: `u-ching-decoder`
+1. Activate the plugin `(in Plugins menu)`
 
 = Once installed, how to make it work: =
 
 1. Got to Widgets, and put a u-Ching Decoder widget into a sidebar
-2. Optional: insert shortcode `[u-ching-display]` into a post or page
-3. Settings are at `Dashboard -> Settings -> u-Ching Settings`
+1. Optional: insert shortcode `[u-ching-display]` into a post or page
+1. Settings are at `Dashboard -> Settings -> u-Ching Settings`
 
 == Frequently Asked Questions ==
 
-1. What is number?
-* A numbers is a quality with a certain frequency. Mind works with the harmonic logic of numbers in order to create.
+* Q: What is number?
+* A: A number is a quality with a certain frequency. Mind works with the harmonic logic of numbers in order to create.
 
-2. What is a day?
-* A day is one turn of the planet you are on. Normally this appears in two periods, defined by the day light or not.
+* Q: What is a day?
+* A: A day is one turn of the planet you are on. Normally this appears in two periods, defined by the day light or not.
 
-3. What is time?
-* T(E)=Art. (T) is time, factored by (E) energy equals equals Art. Only to be understand within the Law of No-Time.
+* Q: What is time?
+* A: T(E)=Art. (T) is time, factored by (E) energy equals equals Art. Only to be understand within the Law of No-Time.
 
-4. Why should I this tool?
-* In time we are one unified mind. To learn and experience this we use a harmonic timing system for synchronization.
+* Q: Why should I use this tool?
+* A: In time we are one unified mind. To learn and experience this we use a harmonic timing system for synchronization.
 
-5. What is required to understand it?
-* A will to change your time system, study the numbers, start or continue a daily practice in no-time, unify in mind! 
+* Q: What is required to understand it?
+* A: A will to change your time system, study the numbers, start or continue a daily practice in no-time, unify in mind! 
 
 Time is Art
 
