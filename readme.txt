@@ -5,7 +5,7 @@ Donate link: http://anthonyfogleman.com/blog/donations/
 Tags: iching, i-ching, uching, u-ching, 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech, decode, date
 Requires at least: WP 3.2
 Tested up to: WP 3.7.1
-Stable tag: 0.0.55
+Stable tag: 1.0.55
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,9 +32,9 @@ Translated from English (en_EN) to Spanish (es_ES) and Dutch (nl_NL).
 
 = Help Keep Our Plugins Free =
 
-If you find this plugin useful, please consider [__making a small donation__](http://anthonyfogleman.com/blog/donations/) to help contribute to my time invested and to further development of this and other interesting plugins and support the development of Natural Time tools to help us connect with each other in peaceful ways.  Thanks for your kind support! - [__Anthony Fogleman__](http://profiles.wordpress.org/tonyray/)
+If you find this plugin useful, please [__make a donation__](http://anthonyfogleman.com/blog/donations/) to help contribute to further development of this and other interesting plugins for development of Natural Time and connections in peaceful ways.  Thanks! - [__Anthony Fogleman__](http://profiles.wordpress.org/tonyray/)
 
-We send blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
+Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 
 == Installation ==
 
@@ -85,10 +85,16 @@ Time is Art
 
 == Changelog ==
 
-= 0.0.55 - 30.11.2013 
+= 1.0.55 - NS1.26.5.16 - 30.11.2013 
+* First stable Release of u-Ching Decoder in English, Dutch and Spanish
+
+= 0.0.55 - NS1.26.5.13 - 27.11.2013 
 * First Release of u-Ching Decoder
 
 == Upgrade Notice ==
 
-= 0.0.55 - 30.11.2013 
-* First Release of u-Ching Decoder in English, Dutch and Spanish
+= 1.0.55 - NS1.26.5.16 - 30.11.2013 
+* First stable Release of u-Ching Decoder in English, Dutch and Spanish
+
+= 0.0.55 - NS1.26.5.13 - 27.11.2013 
+* First Release of u-Ching Decoder
