@@ -30,6 +30,17 @@ Translated from English (en_EN) to Spanish (es_ES) and Dutch (nl_NL).
 
 == Translation credits ==
 
+* Juryt Abma 243 - Dutch
+* Araygua Simran pal Kaur 224 - Spanish
+* Anka TonyRay 139 - English
+
+== About the Series ==
+* There are three plugins that synchronize with each day and decoding.  This plugin is the third of a series developed to expand the use of Natural Time.
+* If you like this plugin, you might also like:
+1. 13-Moon Synchronometer
+2. Cosmic History Quotes
+
+
 = Help Keep Our Plugins Free =
 
 If you find this plugin useful, please [__make a donation__](http://anthonyfogleman.com/blog/donations/) to help contribute to further development of this and other interesting plugins for development of Natural Time and connections in peaceful ways.  Thanks! - [__Anthony Fogleman__](http://profiles.wordpress.org/tonyray/)
