@@ -54,13 +54,13 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 = Manual Method =
 
 1. Download the `(u-ching-decoder.zip)` file from this wordpress page
-1. Go to Plugins, new, upload the zip file.  It will create a directory: `u-ching-decoder`
+1. At Plugins->new->upload the zip file.  It will make a new folder: `u-ching-decoder`
 1. Activate the plugin `(in Plugins menu)`
 
 = Once installed, how to make it work: =
 
-1. Got to Widgets, and put a u-Ching Decoder widget into a sidebar
-1. Optional: insert shortcode `[u-ching-display]` into a post or page
+1. At Widgets, put a u-Ching Decoder widget into a sidebar
+1. Optional: shortcode `[u-ching-display]` in post, page, or text widget
 1. Settings are at `Dashboard -> Settings -> u-Ching Settings`
 
 == Frequently Asked Questions ==
