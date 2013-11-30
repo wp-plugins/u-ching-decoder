@@ -56,7 +56,7 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 
 = Manual Method =
 
-1. Download the zip file from wordpress
+1. Download the `(u-ching-decoder.zip)` file from this wordpress page
 2. Go to Plugins, new, upload the zip file.  It will create a directory: `u-ching-decoder`
 3. Activate the plugin `(in Plugins menu)`
 
