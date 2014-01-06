@@ -26,7 +26,7 @@ function start_uching() {
 	$this_day_posts_num = count($thisday_posts_array);
 // Loop through posts
      if ($this_day_posts_num > 0) {
-      	$post_list .= "<div class=\"post_list\">Posts (".count($thisday_posts_array).")<br>";
+      	$post_list .= "<div class=\"post_list\">Posts (".count($thisday_posts_array).")";
 		$countr = 0;
           foreach ($thisday_posts_array as $thisday_post_item){
 			if ($countr >= $show_num_posts){
@@ -36,7 +36,7 @@ function start_uching() {
           	$this_title 		= $thisday_post_item->post_title;
           	$this_date 		= $thisday_post_item->post_date;
           	$this_url 		= $thisday_post_item->guid;
-			$post_list .= "<li><a href=\"$this_url\">$this_title</a></li>";
+			$post_list .= "<br><a href=\"$this_url\">$this_title</a></br>";
 			$countr++;
           }
 		$post_list .= "</div>";
@@ -59,8 +59,6 @@ function start_uching() {
 	    </ul>
 <!-- --------- BEGIN: TAB CONTENTS ---------- -->
 	<div class="tabContent" id="tabone">
-
-<!--		<h2>uChing Chapter</h2>   -->
 
 <?php 
 // Tab 1 - Front Tab on Entering
@@ -120,13 +118,12 @@ function start_uching() {
 <?php
      if ($this_day_posts_num > 0){
      	echo "<div class=\"tabContent\" id=\"tabfour\">\n";
-     	echo "<h2>uChing Posts</h2>\n";
-     	echo "<div><p>$post_list</p></div>\n";
+     	echo "<h2>This day posts</h2>\n";
+     	echo "$post_list\n";
+	echo "</div>\n";
 	}
-?>
-     </div>
-<!-- END Tabbed Content -->
-<?php
+
+
 // Show Links to Friends of uChing
      if ($permit_credits === "YES"){
          	echo "<div class=credits id=credits_id>";
@@ -135,6 +132,15 @@ function start_uching() {
          	echo "<a target=\"_BLANK\" href=\"http://www.u-ching.com/\" title=\"uChing Network\">uCHING</a>";
          	echo "</div>";
 	}
+
+
+?>
+     </div>
+
+<!--  END Tabbed Content -->
+
+
+<?php
 
 
 // ASSIGN Output

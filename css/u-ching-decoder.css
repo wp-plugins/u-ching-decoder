@@ -1,4 +1,15 @@
 
+
+
+#uching_div_wrapper .content_wrapper {
+	clear: both;
+}
+
+ul#tabs li {
+	display: inline;
+	padding: 2px 0px 0px 2px;
+}
+
 .next_day_link a {
      text-decoration: none;
      font-size: 18px;
@@ -48,6 +59,35 @@ i.date_container4 {
 	font-weight: bold;
 }
 
+
+a.credits:link {text-align: right;color:red;	font-size: 10px; line-height: 12px; text-decoration:none;border: none; display: inline;background: none;padding: 0px 0px 0px 0px;}
+a.credits:visited {text-align: right;color:red;	font-size: 10px; line-height: 12px; text-decoration:none;border: none; display: inline;background: none;padding: 0px 0px 0px 0px; }
+a.credits:hover {text-align: right;color:blue;	font-size: 10px; line-height: 12px; text-decoration:none;border: none; display: inline;background: none;padding: 0px 0px 0px 0px; }
+a.credits:active {text-align: right;color:red;	font-size: 10px; line-height: 12px; text-decoration:none;border: none; display: inline;background: none; padding: 0px 0px 0px 0px;}
+
+.credits {
+  font-size: 10px;
+  float: right;
+  line-height: 12px;
+  margin-top: 12px;
+}
+
+
+
+.credits a:link, .credits a:visited, .credits a:hover, .credits a:active {
+  display: inline;
+  background: none;
+  padding: 5px;
+  padding-left: 0px;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+//  border-bottom: 1px solid #CCC;
+//  border-top: 1px solid #ccc;
+
+}
+
+
 .china_chars_tab {
 	font-size: 12px;
 	margin: 0 2px 0 2px;
@@ -78,6 +118,7 @@ ul#tabs li a {
 	padding: 0.3em; 
 	text-decoration: none; 
 	font-size: 10px;
+	display: inline;
 }
 
 ul#tabs li a:hover { 
@@ -85,6 +126,7 @@ ul#tabs li a:hover {
 }
 
 ul#tabs li a.selected {
+	display: inline;
 	color: #000; 
 	background-color: #f1f0ee; 
 	font-weight: bold; 
@@ -435,3 +477,9 @@ td.hex_full_moon_padder {
 #tm_synchronometer img.plasma_icons {
 	box-shadow: none;
 }
+
+#ucd_content_wrapper {
+
+}
+
+
