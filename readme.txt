@@ -1,7 +1,7 @@
 === u-Ching Decoder === Contributors: tonyray, abmaya
 Author URI: http://anthonyfogleman.com/Donate link: http://anthonyfogleman.com/blog/donations/Tags: iching, i-ching, uching, u-ching, 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech, decode, date
 Requires at least: WP 3.2
-Tested up to: WP 3.8
+Tested up to: WP 3.9
 Stable tag: 1.0.56License: GPLv2License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
 The u-Ching is a new application for the Dreamspell. With this tool you are able to decode the ancient 64 hexagrams of the I Ching into their corresponding number frequency, not known before. This re-orders all the chapters of the I into U. In this ancient new knowledge we continue our study of the Genetic Code in Time. Every hexagram (or codon) is related with one of 64 UR Runes, we learned about in the Law of Time. The u-Ching became available as a gift from the People of O.M.A. around Galactic Synchronization in 2013. This Wordpress plugin works as a widget you can drop in a sidebar. It is responsive and resizes to certain proportions with theme, for example on mobile devices. 
