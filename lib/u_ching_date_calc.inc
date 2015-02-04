@@ -26,6 +26,10 @@ if ($ucd_locale != ""){
 
 
 // Start working with the date //  KIN and CHAPTER LOOKUPS
+
+// Is this a post?
+$this_pg_type_post = get_post_type(get_the_ID());
+	
 	
 // Get requested day
 if (isset($_GET['dcode_day'])){
@@ -35,6 +39,13 @@ if (isset($_GET['dcode_day'])){
 }
 
 
+elseif ($this_pg_type_post == "post"){
+		$this_post_date = get_the_date("Y-n-j");
+		$this_post_date_pcs = explode("-", $this_post_date);
+		$dcode_yr  = $this_post_date_pcs[0]; // Y	A full numeric representation of a year, 4 digits
+		$dcode_mo  = $this_post_date_pcs[1];  // n	Numeric representation of a month, with NO leading zeros
+		$dcode_day = $this_post_date_pcs[2];  // j	Day of the month, 2 digits with leading NO zeros
+}
 
 // Requests for $dcode_kin
 elseif (isset($_GET['dcode_kin'])){
@@ -214,30 +225,30 @@ $next_day_link = "<a href=\"?dcode_day=$next_day_day&dcode_mo=$next_day_mo&dcode
 $ucd_chapter				= utf8_encode($uching_line_array[$found_chapter][0]);
 $ucd_kin_del				= utf8_encode($uching_line_array[$found_chapter][1]);
 $ucd_inverse_number			= utf8_encode($uching_line_array[$found_chapter][2]);
-$ucd_complementary_number	= utf8_encode($uching_line_array[$found_chapter][3]);
+$ucd_complementary_number		= utf8_encode($uching_line_array[$found_chapter][3]);
 $ucd_fu_xi_number			= utf8_encode($uching_line_array[$found_chapter][4]);
-$ucd_i_ching_chapter		= utf8_encode($uching_line_array[$found_chapter][5]);
+$ucd_i_ching_chapter			= utf8_encode($uching_line_array[$found_chapter][5]);
 $ucd_chinese_name_1			= utf8_encode($uching_line_array[$found_chapter][6]);
 $ucd_chinese_name_2			= utf8_encode($uching_line_array[$found_chapter][7]);
-$ucd_lunar_ring_days		= utf8_encode($uching_line_array[$found_chapter][8]);
-$ucd_bmu_number			= utf8_encode($uching_line_array[$found_chapter][9]);
+$ucd_lunar_ring_days			= utf8_encode($uching_line_array[$found_chapter][8]);
+$ucd_bmu_number				= utf8_encode($uching_line_array[$found_chapter][9]);
 $ucd_wavespell_in_season		= utf8_encode($uching_line_array[$found_chapter][10]);
 $ucd_earth_family			= utf8_encode($uching_line_array[$found_chapter][11]);
 $ucd_galactic_tone			= utf8_encode($uching_line_array[$found_chapter][12]);
 $ucd_group_number			= utf8_encode($uching_line_array[$found_chapter][13]);
 $ucd_core_number			= utf8_encode($uching_line_array[$found_chapter][14]);
-$ucd_codon_code			= utf8_encode($uching_line_array[$found_chapter][15]);
-$ucd_amino_acid			= utf8_encode($uching_line_array[$found_chapter][16]);
+$ucd_codon_code				= utf8_encode($uching_line_array[$found_chapter][15]);
+$ucd_amino_acid				= utf8_encode($uching_line_array[$found_chapter][16]);
 $ucd_outer_triplet			= utf8_encode($uching_line_array[$found_chapter][17]);
 $ucd_inner_triplet			= utf8_encode($uching_line_array[$found_chapter][18]);
-$ucd_rune_title			= utf8_encode($uching_line_array[$found_chapter][19]);
+$ucd_rune_title				= utf8_encode($uching_line_array[$found_chapter][19]);
 $ucd_rune_subtitle			= utf8_encode($uching_line_array[$found_chapter][20]);
 $ucd_u_ching_title			= utf8_encode($uching_line_array[$found_chapter][21]);
-$ucd_u_ching_subtitle		= utf8_encode($uching_line_array[$found_chapter][22]);
+$ucd_u_ching_subtitle			= utf8_encode($uching_line_array[$found_chapter][22]);
 $ucd_i_ching_title			= utf8_encode($uching_line_array[$found_chapter][23]);
-$ucd_i_ching_title_wilhelm	= utf8_encode($uching_line_array[$found_chapter][24]);
-$ucd_modern_interpretation	= utf8_encode($uching_line_array[$found_chapter][25]);
-$ucd_chinese_characters		= utf8_encode($uching_line_array[$found_chapter][26]);
+$ucd_i_ching_title_wilhelm		= utf8_encode($uching_line_array[$found_chapter][24]);
+$ucd_modern_interpretation		= utf8_encode($uching_line_array[$found_chapter][25]);
+$ucd_chinese_characters			= utf8_encode($uching_line_array[$found_chapter][26]);
 $ucd_hexagram_binary_del		= utf8_encode($uching_line_array[$found_chapter][27]);
 
 

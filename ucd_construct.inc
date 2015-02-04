@@ -124,27 +124,28 @@ function start_uching() {
 	}
 
 
-// Show Links to Friends of uChing
      if ($permit_credits === "YES"){
-         	echo "<div class=credits id=credits_id>";
-         	echo "<a target=\"_BLANK\" href=\"http://lawoftime.org/\" title=\"Foundation for the Law of Time\">FLT</a> ";
-         	echo "<a target=\"_BLANK\" href=\"http://spacestationplaza.com/\" title=\"Space Station Plaza\">SSP</a> ";
-         	echo "<a target=\"_BLANK\" href=\"http://www.u-ching.com/\" title=\"uChing Network\">uCHING</a>";
-         	echo "</div>";
-	}
+     	echo "<div class=ucd_ads id=\"credits_id\">";
+     	echo "<a target=\"_BLANK\" href=\"http://lawoftime.org/\" title=\"Foundation for the Law of Time\">FLT</a>";
+     	echo " ";
+     	echo "<a target=\"_BLANK\" href=\"http://spacestationplaza.com/\" title=\"Space Station Plaza\">SSP</a>";
+     	echo " ";
+     	echo "<a target=\"_BLANK\" href=\"http://www.u-ching.com/\" title=\"uChing Network\">uCHING</a>";
+     	echo "</div>";
+     }
+
+// End main containers - ucd_content_wrapper
+	echo "</div>";
+
+// Clear all 
+	echo "<div style=clear:both;></div>";
 
 
-?>
-     </div>
-
-<!--  END Tabbed Content -->
-
-
-<?php
+// --  END Tabbed Content -- //
 
 
 // ASSIGN Output
-	$uching_content = "<div id=\"uching_div_wrapper\">".ob_get_contents()."</div>";
+	$uching_content = "<div class=\"entire_ucd_div\" id=\"uching_div_wrapper\" style=\"display:none;\">".ob_get_contents()."</div>";
 // End Output Buffer
 	$some_ucd_valuefornull = ob_end_clean();
 // RETURN OUTPUT ======================================

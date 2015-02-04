@@ -1,4 +1,40 @@
 
+.credits a:link, .credits a:visited, .credits a:hover, .credits a:active {
+  display: inline;
+  background: none;
+  padding: 5px;
+  padding-left: 0px;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#credits_id {
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-size: 10px;
+}
+
+#credits_id a {
+	display: inline;
+	background: none;
+	padding-right: 2px;
+	padding-left: 2px;
+     float: right;
+}
+
+
+.ucd_ads a:link, .ucd_ads a:visited, .ucd_ads a:hover, .ucd_ads a:active {
+	display: inline;
+	background: none;
+	padding: 5px;
+	padding-left: 0px;
+	text-decoration: none;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+
 
 
 #uching_div_wrapper .content_wrapper {
@@ -51,41 +87,10 @@ i.date_container4 {
      margin-bottom: 6px;
 }
 
-#credits_id {
-     padding-top: 10px;
-     font-size: 10px;
-     float: right;
-     line-height: 12px;
-	font-weight: bold;
-}
-
-
-a.credits:link {text-align: right;color:red;	font-size: 10px; line-height: 12px; text-decoration:none;border: none; display: inline;background: none;padding: 0px 0px 0px 0px;}
-a.credits:visited {text-align: right;color:red;	font-size: 10px; line-height: 12px; text-decoration:none;border: none; display: inline;background: none;padding: 0px 0px 0px 0px; }
-a.credits:hover {text-align: right;color:blue;	font-size: 10px; line-height: 12px; text-decoration:none;border: none; display: inline;background: none;padding: 0px 0px 0px 0px; }
-a.credits:active {text-align: right;color:red;	font-size: 10px; line-height: 12px; text-decoration:none;border: none; display: inline;background: none; padding: 0px 0px 0px 0px;}
-
-.credits {
-  font-size: 10px;
-  float: right;
-  line-height: 12px;
-  margin-top: 12px;
-}
 
 
 
-.credits a:link, .credits a:visited, .credits a:hover, .credits a:active {
-  display: inline;
-  background: none;
-  padding: 5px;
-  padding-left: 0px;
-  text-decoration: none;
-  font-size: 10px;
-  font-weight: bold;
-//  border-bottom: 1px solid #CCC;
-//  border-top: 1px solid #ccc;
 
-}
 
 
 .china_chars_tab {
