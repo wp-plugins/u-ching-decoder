@@ -1,5 +1,5 @@
 === u-Ching Decoder === 
-Contributors: tonyray, abmaya
+Contributors: tonyray, uching
 Author URI: http://anthonyfogleman.com/
 Donate link: http://anthonyfogleman.com/blog/donations/
 Tags: iching, i-ching, uching, u-ching, 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech, decode, date
