@@ -140,12 +140,12 @@ function start_uching() {
 // Clear all 
 	echo "<div style=clear:both;></div>";
 
-
 // --  END Tabbed Content -- //
-
 
 // ASSIGN Output
 	$uching_content = "<div class=\"entire_ucd_div\" id=\"uching_div_wrapper\" style=\"display:none;\">".ob_get_contents()."</div>";
+
+
 // End Output Buffer
 	$some_ucd_valuefornull = ob_end_clean();
 // RETURN OUTPUT ======================================

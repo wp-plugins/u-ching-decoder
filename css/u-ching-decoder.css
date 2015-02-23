@@ -24,6 +24,7 @@
 }
 
 
+
 .ucd_ads a:link, .ucd_ads a:visited, .ucd_ads a:hover, .ucd_ads a:active {
 	display: inline;
 	background: none;
@@ -470,6 +471,13 @@ td.hex_full_moon_padder {
 #uching_div_wrapper ul li {
 	margin-right: -2px;
 }
+
+
+div#uching_div_wrapper {
+	display: none;
+}
+
+
 
 #u_ching_plug_form td {
      text-align: right;
