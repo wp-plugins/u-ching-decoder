@@ -248,14 +248,12 @@ i.u-norm {
      font-style: normal;
      font-weight: normal;
 	font-size: 9px;
-//	vertical-align: middle;
 }
 
 i.u-bold {
      font-style: normal;
      font-weight: bolder;
 	font-size: 9px;
-//	vertical-align: text-bottom;
 }
 
 .ucd_uching_title {
@@ -288,7 +286,6 @@ i.u-bold {
 
 
 td.ucd_num {
-//	line-height: 15px;
 	line-height: 10px;
 }
 
