@@ -39,7 +39,7 @@ if (isset($_GET['dcode_day'])){
 }
 
 
-elseif ($this_pg_type_post == "post"){
+elseif (($this_pg_type_post == "post")||($this_pg_type_post == "event")){
 		$this_post_date = get_the_date("Y-n-j");
 		$this_post_date_pcs = explode("-", $this_post_date);
 		$dcode_yr  = $this_post_date_pcs[0]; // Y	A full numeric representation of a year, 4 digits
